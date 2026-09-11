@@ -1,5 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-  <rect width="48" height="48" rx="12" fill="#fdfbf5" />
-  <path d="M40 6C22 6 8 18 8 34c0 3 .5 5.5 1.5 7.5C5 36 4 30 6 24 8.5 16.5 16 10 26 8c5-1 11 .5 14.5-.5z" fill="#2f8f4f" />
-  <path d="M8 34c6-8 14-14 24-20" stroke="#eafff2" stroke-width="1.4" fill="none" stroke-linecap="round" />
+  <defs>
+    <linearGradient id="fav-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14532d" />
+      <stop offset="1" stop-color="#2f8f4f" />
+    </linearGradient>
+    <linearGradient id="fav-vein" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#bfe3c6" />
+      <stop offset="1" stop-color="#e7f4ea" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="13" fill="url(#fav-bg)" />
+  <path d="M13 42 C7 30 14 14 37 10 C32 21 26 32 13 42 Z" fill="#f4faf0" />
+  <path d="M13 42 C16 30 22 19 35 12" fill="none" stroke="url(#fav-vein)" stroke-width="1.6" stroke-linecap="round" />
+  <path d="M32 24 C34 20 36 16 37 12" fill="none" stroke="#aed4b8" stroke-width="2.4" stroke-linecap="round" />
+  <path d="M13 42 C13 45 12 46 9 47" fill="none" stroke="#d9a431" stroke-width="2" stroke-linecap="round" />
 </svg>
