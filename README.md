@@ -77,7 +77,7 @@ Then open the local development URL shown in the terminal.
 
 ##installatio
 bash
-git clone
+git clone https://github.com/jumanafathimatp-dev/LEAF__BANK
 
 ### Project Documentation
 For Software:
