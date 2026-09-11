@@ -2,6 +2,7 @@ import { useWallet } from '../state/WalletContext.jsx';
 import WalletCard from '../components/WalletCard.jsx';
 import ActionCard from '../components/ActionCard.jsx';
 import LeafCollection from '../components/LeafCollection.jsx';
+import LeafArt from '../components/LeafArt.jsx';
 import EconomyNews from '../components/EconomyNews.jsx';
 import { NEWS } from '../data/news.js';
 
@@ -45,6 +46,12 @@ export default function Economy() {
 
   return (
     <section className="economy">
+      <div className="page-decor" aria-hidden="true">
+        <LeafArt type="mango" color="#3ead63" size={96} className="decor-leaf decor-leaf--1" />
+        <LeafArt type="neem" color="#728c3a" size={64} className="decor-leaf decor-leaf--2" />
+        <LeafArt type="guava" color="#d9a431" size={72} className="decor-leaf decor-leaf--3" />
+      </div>
+
       <div className="container">
         <header className="page-head">
           <span className="eyebrow">Dashboard</span>
@@ -79,14 +86,14 @@ export default function Economy() {
                 accent="gold"
               />
             </div>
-
-            <EconomyNews items={NEWS} />
           </div>
 
           <div className="economy-side">
-            <LeafCollection collection={collection} />
+            <EconomyNews items={NEWS} />
           </div>
         </div>
+
+        <LeafCollection collection={collection} />
       </div>
     </section>
   );

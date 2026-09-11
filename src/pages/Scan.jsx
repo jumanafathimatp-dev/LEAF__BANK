@@ -5,6 +5,7 @@ import UploadArea from '../components/UploadArea.jsx';
 import ScanProgress from '../components/ScanProgress.jsx';
 import ScanResult from '../components/ScanResult.jsx';
 import ScanSuccess from '../components/ScanSuccess.jsx';
+import LeafArt from '../components/LeafArt.jsx';
 
 export default function Scan() {
   const { collection, available, addLeaf } = useWallet();
@@ -58,6 +59,11 @@ export default function Scan() {
 
   return (
     <section className="scan">
+      <div className="page-decor" aria-hidden="true">
+        <LeafArt type="coriander" color="#3ead63" size={90} className="decor-leaf decor-leaf--1" />
+        <LeafArt type="mango" color="#d9a431" size={60} className="decor-leaf decor-leaf--2" />
+      </div>
+
       <div className="container scan-layout">
         <header className="page-head">
           <span className="eyebrow">Leaf Scanner</span>

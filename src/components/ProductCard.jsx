@@ -3,7 +3,10 @@ import ArtTile from './ArtTile.jsx';
 
 export default function ProductCard({ product, affordable, onBuy }) {
   return (
-    <article className="product-card">
+    <article
+      className={`product-card${affordable ? '' : ' is-unaffordable'}`}
+      style={{ '--product-tint': product.tint }}
+    >
       <div className="product-media">
         <PlantImage
           src={product.image}
@@ -21,7 +24,7 @@ export default function ProductCard({ product, affordable, onBuy }) {
           disabled={!affordable}
           onClick={() => onBuy(product)}
         >
-          {affordable ? 'Buy it' : 'Need more leaves'}
+          {affordable ? 'Buy it' : 'Not enough leaves'}
         </button>
       </div>
     </article>

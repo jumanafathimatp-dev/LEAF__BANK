@@ -4,6 +4,7 @@ import { PRODUCTS } from '../data/market.js';
 import ProductCard from '../components/ProductCard.jsx';
 import PlantImage from '../components/PlantImage.jsx';
 import ArtTile from '../components/ArtTile.jsx';
+import LeafArt from '../components/LeafArt.jsx';
 import Toast from '../components/Toast.jsx';
 
 export default function Market() {
@@ -31,6 +32,12 @@ export default function Market() {
 
   return (
     <section className="market">
+      <div className="page-decor" aria-hidden="true">
+        <LeafArt type="neem" color="#c08045" size={88} className="decor-leaf decor-leaf--1" />
+        <LeafArt type="mint" color="#7fa8c9" size={58} className="decor-leaf decor-leaf--2" />
+        <LeafArt type="coriander" color="#f1b3c0" size={70} className="decor-leaf decor-leaf--3" />
+      </div>
+
       <div className="container">
         <header className="page-head">
           <span className="eyebrow">Leaf Market</span>
