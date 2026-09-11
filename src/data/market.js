@@ -3,7 +3,7 @@ import candyWrapperImage from '../assets/images/market/candy-wrapper.jpg';
 import bottleCapImage from '../assets/images/market/bottle-cap.jpg';
 import tinyStickImage from '../assets/images/market/tiny-stick.jpg';
 import interestingStoneImage from '../assets/images/market/interesting-stone.jpg';
-import featherImage from '../assets/images/market/feather.jpg';
+
 import brokenPencilImage from '../assets/images/market/broken-pencil.jpg';
 import randomButtonImage from '../assets/images/market/random-button.jpg';
 
@@ -54,7 +54,7 @@ export const PRODUCTS = [
     price: 30,
     description: 'Shed by a bird of sufficient wealth status.',
     tint: '#fbe7ec',
-    image: featherImage,
+    image: "../assets/images/market/feather.jpg",
   },
   {
     id: 'broken-pencil',
