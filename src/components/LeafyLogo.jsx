@@ -1,9 +1,10 @@
 import LeafyMark from './LeafyMark.jsx';
 
-export default function LeafyLogo() {
+export default function LeafyLogo({ variant = '' }) {
+  const className = variant ? `brand brand--${variant}` : 'brand';
   return (
-    <span className="brand">
-      <LeafyMark size={34} />
+    <span className={className}>
+      <LeafyMark size={48} />
       LEAFY
     </span>
   );

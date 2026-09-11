@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import LeafIcon from '../components/LeafIcon.jsx';
+import LeafyLogo from '../components/LeafyLogo.jsx';
 import PlantImage from '../components/PlantImage.jsx';
 import ArtTile from '../components/ArtTile.jsx';
 import { LEAVES } from '../data/leaves.js';
@@ -34,6 +35,7 @@ export default function Welcome() {
 
         <div className="container hero-inner">
           <div className="hero-copy">
+            <LeafyLogo variant="hero" />
             <span className="eyebrow">The Leaf Economy</span>
             <h1 className="hero-title">Remember when leaves were money?</h1>
             <p className="hero-sub">
