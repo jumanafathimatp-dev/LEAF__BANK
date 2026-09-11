@@ -1,97 +1,105 @@
-<img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
+<img width="2774" height="1506" alt="image" src="https://github.com/user-attachments/assets/9cd5f6f1-6521-4cf4-ba5a-5dc06f6413b5" /><img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
 
 
-# [Project Name] 🎯
+# [LEAFY 🍃💸] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Jumana Fathima]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Jumana fathima] - [KAHM UNITY WOMENS COLLEGE MANJERI]
+
 
 ### Project Description
-[2-3 lines about what your project does]
+[LEAFY is a fictional leaf-based economy where ordinary leaves become a form of currency called Leaf Money. Users can scan different types of leaves, add their value to their wallet, and use Leaf Money to buy completely useless things from the Leaf Market.
+
+Because apparently, leaves needed a financial system.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[People have been carrying around leaves for years without knowing their true financial potential.
+
+We identified a serious imaginary problem:
+
+“What if leaves could actually be money?”]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[LEAFY turns different types of leaves into fictional currency.
+Users can:
+
+Scan a leaf
+Identify its leaf type
+Receive its fixed Leaf Money value
+Add it to their Leaf Wallet
+Collect different types of leaves
+Spend Leaf Money at the Leaf Market
+Buy completely useless objects
+
+For example:
+
+Coriander Leaf = ₹10
+Mint Leaf = ₹20
+Mango Leaf = ₹50
+Guava Leaf = ₹75
+Neem Leaf = ₹100
+
+The value depends only on the type of leaf. Every leaf of the same type has the same value.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+For Software:
+
+Languages: JavaScript, HTML, CSS
+Framework: React
+Build Tool: Vite
+Styling: CSS
+Tools: VS Code, Git, GitHub, OpenCode
+Version Control: Git & GitHub
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
+No special hardware required
+Laptop/Desktop
+Camera or leaf photograph for the scanning feature
 
 ### Implementation
 For Software:
-# Installation
-[commands]
+Installation
+npm install
 
-# Run
-[commands]
+Run
+npm run dev
+
+Then open the local development URL shown in the terminal.
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/drive/folders/18jtquNXk5KfwQKOO1--PO8TXk2DsCDrZ?usp=sharing
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
+The workflow shows how a leaf is scanned, identified, added to the Leaf Wallet, and eventually used to purchase useless items from the Leaf Market.
 For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/drive/folders/1AJ5_WxR6HGwtG5bxfi-AH4wxw7sofxoI?usp=sharing]
+
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [jumana fathima]: [ Project concept, UI/UX design, React development, Leaf Economy, Leaf Wallet, scanning flow, Leaf Market, and project integration.]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
