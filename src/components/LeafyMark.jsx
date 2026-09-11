@@ -1,48 +1,35 @@
 import { useId } from 'react';
 
 export default function LeafyMark({ size = 34, className = '' }) {
-  const coinGrad = useId();
-  const leafGrad = useId();
+  const dark = useId();
+  const light = useId();
 
   return (
     <svg className={className} width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
       <defs>
-        <radialGradient id={coinGrad} cx="0.35" cy="0.32" r="0.85">
-          <stop offset="0" stopColor="#f8dc86" />
-          <stop offset="0.42" stopColor="#e7b653" />
-          <stop offset="0.75" stopColor="#c9992f" />
-          <stop offset="1" stopColor="#a8791d" />
-        </radialGradient>
-        <linearGradient id={leafGrad} x1="0" y1="1" x2="1" y2="0">
-          <stop offset="0" stopColor="#1d5c39" />
-          <stop offset="0.55" stopColor="#2f8f4f" />
-          <stop offset="1" stopColor="#3ead63" />
+        <linearGradient id={dark} x1="0" y1="0.5" x2="1" y2="0.5">
+          <stop offset="0" stopColor="#164f2f" />
+          <stop offset="1" stopColor="#25683f" />
+        </linearGradient>
+        <linearGradient id={light} x1="0" y1="0.5" x2="1" y2="0.5">
+          <stop offset="0" stopColor="#3aa967" />
+          <stop offset="1" stopColor="#58d688" />
         </linearGradient>
       </defs>
-      <circle cx="32" cy="32" r="30" fill={`url(#${coinGrad})`} />
-      <circle cx="32" cy="32" r="30" fill="none" stroke="#a97d19" strokeWidth="1.6" opacity="0.9" />
-      <circle cx="32" cy="32" r="26.6" fill="none" stroke="#8a6414" strokeWidth="1.4" opacity="0.55" />
-      <path d="M15 19 A 21 21 0 0 1 30 12" fill="none" stroke="#ffffff" strokeOpacity="0.4" strokeWidth="3" strokeLinecap="round" />
       <path
-        d="M28 44 C23 35 27 24 46 21 C40 29 35 39 28 44 Z"
-        fill={`url(#${leafGrad})`}
+        d="M32 55 C24 55 13 47 12 36 C11 22 19 8 32 4 C33 20 33 40 32 55 Z"
+        fill={`url(#${dark})`}
       />
       <path
-        d="M28 44 C31 38 35 31 42 25"
-        fill="none"
-        stroke="#14402a"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeOpacity="0.85"
+        d="M32 55 C33 40 33 20 32 4 C45 8 51 22 50 36 C49 47 40 55 32 55 Z"
+        fill={`url(#${light})`}
       />
-      <path
-        d="M36 30 C39 27 42 24 44 22"
-        fill="none"
-        stroke="#eafff2"
-        strokeOpacity="0.55"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
+      <path d="M32 55 C33 40 33 20 32 4" fill="none" stroke="#0e3a22" strokeWidth="1.2" strokeLinecap="round" strokeOpacity="0.5" />
+      <path d="M33 20 C38 22 43 27 47 33" fill="none" stroke="#0e3a22" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.35" />
+      <path d="M33 32 C38 36 42 40 44 44" fill="none" stroke="#0e3a22" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.35" />
+      <path d="M32.5 22 C27 24 21 30 16 36" fill="none" stroke="#0e3a22" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.35" />
+      <path d="M33 34 C27 38 22 42 18 44" fill="none" stroke="#0e3a22" strokeWidth="1" strokeLinecap="round" strokeOpacity="0.35" />
+      <path d="M32 55 C30 59 28 61 25 64" fill="none" stroke="#2b7a46" strokeWidth="2.6" strokeLinecap="round" />
     </svg>
   );
 }
