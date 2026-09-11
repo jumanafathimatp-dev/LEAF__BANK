@@ -75,6 +75,10 @@ npm run dev
 
 Then open the local development URL shown in the terminal.
 
+##installatio
+bash
+git clone
+
 ### Project Documentation
 For Software:
 
